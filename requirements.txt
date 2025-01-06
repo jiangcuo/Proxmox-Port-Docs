@@ -9,6 +9,6 @@ sphinxcontrib-jquery==4.1
 sphinxcontrib-jsmath==1.0.1
 sphinxcontrib-qthelp==2.0.0
 sphinxcontrib-serializinghtml==2.0.0
-commonmark==0.9.1
+recommonmark==0.9.1
 sphinx_markdown_tables==0.0.17
 sphinx_intl==2.3.1
