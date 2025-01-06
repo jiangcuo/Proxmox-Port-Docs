@@ -1,16 +1,14 @@
-# Proxmox Port Docs
-
-## About Proxmox Port
+# 1. About Proxmox Port
 
 Proxmox Port is a project that ports Proxmox VE and Proxmox Backup Server to non-amd64 platforms. At present, the complete porting to loongarch64 and arm64 has been completed, and the support for riscv64 has also been added to the code. However, packages for riscv64 have not been built yet.
 
 Code licensed under the  AGPLv3 (GNU Affero General Public License version 3).
 
-## Which devices are supported?
+## 1.1 Which devices are supported?
 
 Theoretically, devices with arm64 chips and those with loongarch64 are both supported. We will have a support list and put it in this document for your reference.
 
-## What are the differences from the official version?
+## 1.2 What are the differences from the official version?
 
 - We have provided code that supports multiple architectures. Meanwhile, we have also offered some optimization treatments for QEMU to make it more user-friendly.
 
@@ -18,7 +16,7 @@ Theoretically, devices with arm64 chips and those with loongarch64 are both supp
 
 - The code can also run on amd64, making the compatibility of hybrid clusters stronger.
 
-## Support
+## 1.3 Support
 
 Proxmox Port is a downstream project. All support should be provided by us. Proxmox will not be responsible for this code. This is something that everyone needs to know. Please don't go to the forum to seek support.
 

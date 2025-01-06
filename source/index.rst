@@ -1,9 +1,6 @@
-Welcome to Proxmox Port Documentation!
-=====================================
-    
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 4
 
-   about.md
-   installtion.md
+   about
+   installation/index.rst

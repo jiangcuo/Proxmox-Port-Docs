@@ -38,6 +38,11 @@ language =  'en'
 
 epub_show_urls = 'footnote'
 
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.md': 'markdown',
+}
+
 latex_engine = 'xelatex'
 latex_use_xindy = False
 latex_elements = {
