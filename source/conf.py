@@ -17,6 +17,8 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    'sphinx.ext.napoleon',
+    'sphinx.ext.viewcode',
     'recommonmark',
     'sphinx_markdown_tables',
 ]
@@ -29,14 +31,13 @@ intersphinx_disabled_domains = ['std']
 
 templates_path = ['_templates']
 
-# -- Options for HTML output
-
 html_theme = 'sphinx_rtd_theme'
+pygments_style = 'sphinx'
+master_doc = 'index'
+language =  'en'
 
-# -- Options for EPUB output
 epub_show_urls = 'footnote'
 
-# -- Options for PDF output
 latex_engine = 'xelatex'
 latex_use_xindy = False
 latex_elements = {
